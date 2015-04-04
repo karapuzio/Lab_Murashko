@@ -1,0 +1,21 @@
+5
+2 4 1 4 3
+3 1
+sosnovaya
+kirova
+17 2
+kirova
+sverdlova
+dovydovskaya
+sosnovaya
+20 3
+lenina
+21 1
+lenina
+sosnovaya
+gagarina
+mazurova
+16 3
+lenina
+sosnovaya
+solnechnaya 
