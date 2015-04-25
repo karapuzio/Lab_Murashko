@@ -8,7 +8,7 @@ int main()
 	int a;
 	int b;
 	int gcd;
-	int result;
+	long long result;
 	cin >> a >> b;
 
 	__asm
@@ -28,11 +28,12 @@ int main()
 		mov gcd, eax
 
 		mov eax, a
-		mul b
 		cdq
-		idiv gcd
+		div gcd
+		mul b
 
-		mov result, eax
+		mov dword ptr result, eax
+		mov dword ptr result + 4, edx
 	}
 	cout << result << endl;
 	return 0;
