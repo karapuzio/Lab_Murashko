@@ -28,6 +28,7 @@ int main()
 		mov gcd, eax
 
 		mov eax, a
+	//	mov edx, 0
 		cdq
 		div gcd
 		mul b
